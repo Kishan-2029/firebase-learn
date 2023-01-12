@@ -1,0 +1,107 @@
+[debug] [2023-01-12T10:05:31.790Z] ----------------------------------------------------------------------
+[debug] [2023-01-12T10:05:31.791Z] Command:       /usr/local/bin/node /Users/kishanprajapati/.npm-global/bin/firebase init
+[debug] [2023-01-12T10:05:31.791Z] CLI Version:   11.20.0
+[debug] [2023-01-12T10:05:31.791Z] Platform:      darwin
+[debug] [2023-01-12T10:05:31.791Z] Node Version:  v16.14.2
+[debug] [2023-01-12T10:05:31.792Z] Time:          Thu Jan 12 2023 15:35:31 GMT+0530 (India Standard Time)
+[debug] [2023-01-12T10:05:31.792Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-12T10:05:31.823Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-12T10:05:31.823Z] > authorizing via signed-in user (kishan.prajapati@searce.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/kishanprajapati/React-Practice/Firebase_Udemy
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-12T10:05:38.430Z] Using project from CLI flag: fir-recipes-2d1ed
+[debug] [2023-01-12T10:05:38.434Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-recipes-2d1ed [none]
+[debug] [2023-01-12T10:05:39.044Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-recipes-2d1ed 200
+[debug] [2023-01-12T10:05:39.045Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-recipes-2d1ed {"projectId":"fir-recipes-2d1ed","projectNumber":"317708327095","displayName":"firebase-recipes","name":"projects/fir-recipes-2d1ed","resources":{"hostingSite":"fir-recipes-2d1ed"},"state":"ACTIVE","etag":"1_f6ea817e-4f1b-4a53-84f1-021cc2646cf0"}
+[info] i  Using project fir-recipes-2d1ed (firebase-recipes) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-01-12T10:05:56.134Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-01-12T10:05:56.300Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-01-12T10:05:56.301Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/kishanprajapati/React-Practice/Firebase_Udemy/firebase-leanring-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1013513106&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-01-12T10:06:24.504Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-01-12T10:06:24.505Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-01-12T10:06:25.055Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-01-12T10:06:25.056Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-01-12T10:06:25.073Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-01-12T10:06:25.549Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-01-12T10:06:25.549Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Kishan2029","id":63163246,"node_id":"MDQ6VXNlcjYzMTYzMjQ2","avatar_url":"https://avatars.githubusercontent.com/u/63163246?v=4","gravatar_id":"","url":"https://api.github.com/users/Kishan2029","html_url":"https://github.com/Kishan2029","followers_url":"https://api.github.com/users/Kishan2029/followers","following_url":"https://api.github.com/users/Kishan2029/following{/other_user}","gists_url":"https://api.github.com/users/Kishan2029/gists{/gist_id}","starred_url":"https://api.github.com/users/Kishan2029/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Kishan2029/subscriptions","organizations_url":"https://api.github.com/users/Kishan2029/orgs","repos_url":"https://api.github.com/users/Kishan2029/repos","events_url":"https://api.github.com/users/Kishan2029/events{/privacy}","received_events_url":"https://api.github.com/users/Kishan2029/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":20,"public_gists":0,"followers":8,"following":9,"created_at":"2020-04-04T17:36:49Z","updated_at":"2023-01-12T10:03:12Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":214761,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Kishan2029 
+[info] 
+[debug] [2023-01-12T10:07:02.551Z] >>> [apiv2][query] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key type=owner
+[debug] [2023-01-12T10:07:03.005Z] <<< [apiv2][status] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key 403
+[debug] [2023-01-12T10:07:03.005Z] <<< [apiv2][body] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-01-12T10:07:42.949Z] >>> [apiv2][query] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key type=owner
+[debug] [2023-01-12T10:07:43.429Z] <<< [apiv2][status] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key 403
+[debug] [2023-01-12T10:07:43.430Z] <<< [apiv2][body] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-01-12T10:20:58.592Z] >>> [apiv2][query] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key type=owner
+[debug] [2023-01-12T10:20:59.107Z] <<< [apiv2][status] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key 403
+[debug] [2023-01-12T10:20:59.107Z] <<< [apiv2][body] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-01-12T10:21:00.880Z] >>> [apiv2][query] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key type=owner
+[debug] [2023-01-12T10:21:01.305Z] <<< [apiv2][status] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key 403
+[debug] [2023-01-12T10:21:01.305Z] <<< [apiv2][body] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-01-12T10:27:02.541Z] >>> [apiv2][query] GET https://api.github.com/repos/Kishan-2029/learn-firebase/actions/secrets/public-key type=owner
